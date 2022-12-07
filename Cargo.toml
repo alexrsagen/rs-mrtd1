@@ -1,0 +1,24 @@
+[package]
+name = "mrtd1"
+version = "0.1.0"
+description = "Helper utilities for communicating with eMRTDs / ePassports"
+authors = ["Alexander Sagen <alexander@sagen.me>"]
+repository = "https://github.com/alexrsagen/rs-mrtd"
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+
+[features]
+default = ["nfc1"]
+
+[dependencies]
+sha1 = "0.10"
+sha2 = "0.10"
+chrono = "0.4"
+rand = "0.8"
+cbc = "0.1"
+des = "0.8"
+block-padding = "0.3"
+iso7816-tlv = "0.4"
+hex_fmt = "0.3"
+nfc1 = { version = "0.5", default-features = false, optional = true }
