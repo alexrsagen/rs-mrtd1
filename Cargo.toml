@@ -1,6 +1,6 @@
 [package]
 name = "mrtd1"
-version = "0.1.1"
+version = "0.1.0"
 description = "Helper utilities for communicating with eMRTDs / ePassports"
 authors = ["Alexander Sagen <alexander@sagen.me>"]
 repository = "https://github.com/alexrsagen/rs-mrtd"
@@ -21,4 +21,4 @@ des = "0.8"
 block-padding = "0.3"
 iso7816-tlv = "0.4"
 hex_fmt = "0.3"
-nfc1 = { version = "*", optional = true }
+nfc1 = { version = "0.5", optional = true }
