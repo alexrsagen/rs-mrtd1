@@ -1,6 +1,6 @@
 [package]
 name = "mrtd1"
-version = "0.1.0"
+version = "0.1.1"
 description = "Helper utilities for communicating with eMRTDs / ePassports"
 authors = ["Alexander Sagen <alexander@sagen.me>"]
 repository = "https://github.com/alexrsagen/rs-mrtd"
